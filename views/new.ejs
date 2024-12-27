@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a New Post </title>
+</head>
+<body>
+
+<!-- we are sending post request to posts -->
+<!--on submit, post request will be sent will will be resolved
+    by the post method defined in the server script.js which will
+    add/push the new data of form into the user's array data -->
+    
+    <form method="post" action="/posts">  
+
+        <input placeholder="enter username" name="username" />
+        <br/> <br/>
+        <textarea placeholder="write your post" name="content"> </textarea>
+
+        <button> Submit Posts </button>
+
+    </form>
+    
+</body>
+</html>
+
+
+

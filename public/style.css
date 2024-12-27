@@ -1,0 +1,23 @@
+h1 {
+    color: rgb(18, 19, 18);
+}
+
+.post {
+    background-color: mediumseagreen;
+}
+
+.user {
+    font-style: italic;
+}
+
+.link {
+    color: palevioletred;
+    font-weight: 900;
+    background-color: yellow;
+}
+
+.link2 {
+    color: black;
+    font-weight: 900;
+    background-color: yellow;
+}
